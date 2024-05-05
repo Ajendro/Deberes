@@ -44,4 +44,3 @@ def bubble_sort():
 
 # Llamar a la función para ordenar los 5 números ingresados por el usuario
 bubble_sort()
-
