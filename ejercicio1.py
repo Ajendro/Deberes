@@ -13,14 +13,12 @@ def busqueda_y_ordenamiento():
     # Solicitar al usuario que ingrese la clave a buscar
     clave = int(input("Ingrese la clave a buscar: "))
 
-    # Realizar la búsqueda secuencial
-    encontrado = False  # Variable para rastrear si se encuentra la clave
-    for i, elemento in enumerate(arreglo):
-        if elemento == clave:
-            # Imprimir la posición de la clave si se encuentra
-            print(f"Búsqueda secuencial: La clave {clave} se encuentra en la posición {i}.")
-            encontrado = True
-            break  # Terminar el bucle si se encuentra la clave
+    # Realizar la búsqueda secuencial utilizando el método index
+    try:
+        indice = arreglo.index(clave)  # Intentar encontrar el índice de la clave en el arreglo
+        print(f"Búsqueda secuencial: La clave {clave} se encuentra en la posición {indice}.")
+    except ValueError:
+        print("Clave no encontrada")
 
     # Realizar la búsqueda binaria
     inicio = 0  # Índice inicial del rango de búsqueda
@@ -38,9 +36,9 @@ def busqueda_y_ordenamiento():
             fin = medio - 1  # Establecer el nuevo final del rango
 
     # Imprimir un mensaje si la clave no se encuentra en ninguna de las búsquedas
-    if not encontrado:
-        print("Clave no encontrada")
+    print("Clave no encontrada")
 
-# Llamar a la función para ejecutar el programa
+
 busqueda_y_ordenamiento()
+
 
