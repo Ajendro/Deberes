@@ -1,5 +1,5 @@
 def busqueda_y_ordenamiento():
-    # Solicitar al usuario que ingrese 20 elementos numéricos para el arreglo
+    # Solicitar al usuario que ingrese 20 elementos numéricos para el arrglo
     arreglo = [int(input(f"Ingrese el elemento {i + 1}: ")) for i in range(20)]
 
     # Ordenar el arreglo utilizando el ordenamiento por burbuja
