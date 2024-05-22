@@ -1,4 +1,4 @@
-# istema de gestión de tareas.
+# Sistema de gestión de tareas.
 
 ## Descripción del Proyecto
 
