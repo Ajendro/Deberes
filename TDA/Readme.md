@@ -1,4 +1,4 @@
-# Task Manager con Cola (Queue)
+# istema de gestión de tareas.
 
 ## Descripción del Proyecto
 
@@ -15,8 +15,8 @@ Este proyecto implementa un TDA (Tipo Abstracto de Datos) de cola utilizando la 
 
 2. **Clonar el Repositorio**:
     ```sh
-    git clone https://github.com/tu_usuario/task-manager-cola.git
-    cd task-manager-cola
+    git clone https://github.com/tu_usuario/TDA.git
+    cd TDA
     ```
 
 3. **Ejecutar la Aplicación**:
